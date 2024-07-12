@@ -16,7 +16,7 @@
     "@types/reactstrap": "^8.4.3",
     "@types/requirejs": "^2.1.32",
     "axios": "^0.19.2",
-    "bootstrap": "^4.5.0",
+    "bootstrap": "^5.0.0",
     "linq": "^3.2.2",
     "luxon": "^1.24.1",
     "mobx": "^5.15.4",
