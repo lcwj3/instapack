@@ -24,7 +24,7 @@
     "@types/jquery": "^3.5.0",
     "@types/luxon": "^1.24.1",
     "@types/requirejs": "^2.1.32",
-    "bootstrap": "^4.5.0",
+    "bootstrap": "^5.0.0",
     "jquery": "^3.5.1",
     "linq": "^3.2.2",
     "luxon": "^1.24.1",
