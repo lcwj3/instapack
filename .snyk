@@ -1,0 +1,65 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@babel/core > lodash':
+        patched: '2025-10-03T08:46:32.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@babel/core > lodash'
+    - portfinder > async > lodash:
+        patched: '2025-10-03T08:46:32.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: portfinder > async > lodash
+    - webpack-plugin-serve > http-proxy-middleware > lodash:
+        patched: '2025-10-03T08:46:32.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: webpack-plugin-serve > http-proxy-middleware > lodash
+    - '@babel/plugin-syntax-dynamic-import > @babel/core > lodash':
+        patched: '2025-10-03T08:46:32.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@babel/plugin-syntax-dynamic-import > @babel/core > lodash'
+    - babel-loader > @babel/core > lodash:
+        patched: '2025-10-03T08:46:32.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-loader > @babel/core > lodash
+    - '@babel/plugin-syntax-dynamic-import > @babel/core > @babel/helper-module-transforms > lodash':
+        patched: '2025-10-03T08:46:32.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/plugin-syntax-dynamic-import > @babel/core >
+          @babel/helper-module-transforms > lodash
+    - '@webhotelier/webpack-fast-refresh > react-dev-utils > inquirer > lodash':
+        patched: '2025-10-03T08:46:32.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @webhotelier/webpack-fast-refresh > react-dev-utils > inquirer >
+          lodash
+    - babel-loader > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2025-10-03T08:46:32.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-loader > @babel/core > @babel/helper-module-transforms > lodash
+    - '@babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2025-10-03T08:46:32.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/core > @babel/helper-module-transforms >
+          @babel/helper-replace-supers > @babel/traverse > lodash
+    - babel-loader > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2025-10-03T08:46:32.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-loader > @babel/core > @babel/generator > @babel/types > lodash
+    - '@babel/plugin-syntax-dynamic-import > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2025-10-03T08:46:32.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/plugin-syntax-dynamic-import > @babel/core >
+          @babel/helper-module-transforms > @babel/helper-replace-supers >
+          @babel/traverse > lodash
+    - babel-loader > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2025-10-03T08:46:32.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-loader > @babel/core > @babel/helper-module-transforms >
+          @babel/helper-replace-supers > @babel/traverse > lodash
